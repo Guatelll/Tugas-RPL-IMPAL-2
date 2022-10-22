@@ -1,0 +1,9 @@
+Soni Andika G - 1301200419
+
+PSPEC in java
+
+public void TSelServ(String input){
+	if(input=="*363#") buyQuota();
+	else if(input=="*858#") pulsaTransfer();
+	else if(input=="*888#") checkPulsa();
+}
